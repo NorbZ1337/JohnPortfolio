@@ -1,0 +1,280 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.header .header__nav .header__menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.header .header__nav .header__menu .header__list {
+    padding-left: 33px;
+    padding-top: 27px;
+    font-family: Heebo;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.header .header__nav .header__menu .header__list .header__link {
+    color: #000000;
+    text-decoration: none;
+    
+}
+
+.header .header__nav .header__menu .header__list .header__link:hover {
+    color: #FF6464;
+}
+
+.container {
+    width: 855px;
+    margin: 0 auto;
+    
+}
+
+.title-info .title-info__box .title-info__title {
+    font-family: Heebo;
+    font-weight: bold;
+    font-size: 44px;
+    color: #21243D; 
+    line-height: 60px;
+
+}
+
+.title-info .title-info__box {
+    width: 506px;
+    margin-top: 165px;
+    display: inline-block;
+
+}
+
+.title-info .title-info__box .title-info__subtitile {
+    font-family: Heebo;
+    line-height: 23px;
+    color: #21243D;
+    padding-top: 35px;
+    padding-bottom: 38px;
+
+}
+
+.title-info .title-info__box .title-info__btn {
+    background: #FF6464;
+    border-radius: 2px;
+    padding: 9px 21px 9px 20px;
+    font-family: Heebo;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 71px;
+}
+
+.title-info .title-info__img-man {
+    position: relative;
+    top: -55px;
+    left: 115px;
+
+}
+
+.posts {
+    background-color: #EDF7FA;
+}
+
+.posts .posts__box .posts__title {
+    font-family: Heebo;
+    font-size: 22px;
+    color: #21243D;
+}
+
+.posts .posts__box .posts__link {
+    font-family: Heebo;
+    font-size: 16px;
+    color:#00A8CC;
+    text-decoration: none;
+}
+
+.posts .posts__box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 27px;
+    padding-bottom: 22px;
+}
+
+.posts .posts__box-card {
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+.posts .posts__box-card .posts__card .posts__theme-card {   
+    font-family: Heebo;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+    padding-bottom: 25px;
+}
+
+.posts .posts__box-card .posts__card {
+    background-color:#FFFFFF;
+    width: 378px;
+    padding: 20px;
+    margin-bottom: 32px;
+    border-radius: 4px;
+}
+
+.posts .posts__box-card .posts__card .border-line {
+    width: 1px;
+    background-color:black;
+    height: 21px;
+    display: inline-block;
+    margin: 0 25px -5px;
+}
+
+.posts .posts__box-card .posts__card .posts__sub-theme {
+    font-family: Heebo;
+    font-size: 18px;
+    color: #21243D;
+
+}
+
+.posts .posts__box-card .posts__text-card {
+    font-family: Heebo;
+    font-size: 16px;
+    line-height: 23px;
+    color: #21243D;
+    width: 368px;
+    padding: 17px 0 15px 0;
+}
+
+.works .works__title {
+    font-family: Heebo;
+    font-size: 22px;
+    color: #21243D;
+    padding-top: 29px;
+    padding-bottom: 5px;
+
+}
+
+.works .works__box .works__card {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 35px;
+    padding-top: 31px;
+}
+.works .works__box .works__card_border {
+    padding-bottom: 15px;
+
+}
+
+.works .works__box .works__card .works__wrapper .works__title-two {
+    font-family: Heebo;
+    font-weight: bold;
+    font-size: 30px;
+    color: #21243D;
+    padding-left: 18px;
+    margin-bottom: 25px;
+    
+}
+
+.works .works__box .works__card .works__wrapper .works__years-type .works__years {
+    border-radius: 16px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: #142850;
+    padding: 0px 5px 0px 10px;
+    margin: 25px 25px 22px 18px;
+
+}
+
+.works .works__box .works__card .works__wrapper .works__years-type .works__type {
+    color: #8695A4;
+    font-family: Heebo;
+    font-size: 20px;
+}
+
+.works .works__box .works__card .works__wrapper .works__years-type .works__text {
+    margin: 17px 0px 0px 18px;
+    font-family: Heebo;
+    font-size: 16px;
+    line-height: 23px;
+    color: #21243D;
+}
+
+.works .works__box .works__card .works__wrapper .works__years-type .works__text_mod {
+    margin-top: 32px;
+    padding-right: 65px;
+}
+
+
+.footer .footer__icons .footer__link {
+    color: #21243D;
+    font-size: 30px;
+    margin-right: 35px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer .footer__copyright {
+    font-family: Heebo;
+    font-size: 14px;
+    line-height: 21px;
+    color: #21243D;
+    margin-top: 26px;
+    padding-right: 36px;
+    margin-bottom: 46px;
+}
+
+.footer {
+	margin-top: 104px;
+}

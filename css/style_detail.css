@@ -1,0 +1,162 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container {
+    width: 681px;
+    margin: 0 auto;
+}
+
+.header .header__nav .header__menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-bottom: 114px;
+}
+
+.header .header__nav .header__menu .header__list {
+    padding-left: 33px;
+    padding-top: 27px;
+    font-family: Heebo;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.header .header__nav .header__menu .header__list .header__link {
+    color: #000000;
+    text-decoration: none;
+    
+}
+
+.header .header__nav .header__menu .header__list .header__link:hover {
+    color: #FF6464;
+}
+
+.detail .detail__h1 {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 50px;
+    color: #21243D;
+    padding-right: 125px;
+    margin-bottom: 26px;
+}
+
+.detail .deatil__years-type .deatil__years {
+    border-radius: 16px;
+    font-family: Heebo;
+    font-weight: 900;
+    font-size: 17px;
+    color: #FFFFFF;
+    background: #FF7C7C;
+    padding: 0px 4px 0px 8px;
+    margin: 0px 17px 30px 4px
+
+}
+
+.detail .deatil__years-type .deatil__type {
+    color: #21243D;
+    font-family: Heebo;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.detail .deatil__years-type .deatil__text {
+    color: #000000;
+    font-family: Heebo;
+    font-size: 16px;
+    line-height: 23px;
+    margin-top: 23px;
+    margin-bottom: 44px;
+
+}
+
+.detail .detail__h2 {
+    font-family: Heebo;
+    font-weight: 500;
+    font-size: 30px;
+    margin: 54px 0px 22px 3px;
+    color: #21243D;
+}
+.detail .detail__h3 {
+    font-family: Heebo;
+    font-weight: 500;
+    font-size: 24px;
+    color: #21243D;
+    margin: 0px 0px 30px 3px;
+}
+
+.detail .deatil__text_mg {
+    color: #000000;
+    font-family: Heebo;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 30px;
+}
+
+.detail .timer {
+    margin: 27px 0 27px 0;
+}
+
+.footer .footer__icons .footer__link {
+    color: #21243D;
+    font-size: 30px;
+    margin-right: 35px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 27px;
+}
+
+.footer .footer__copyright {
+    font-family: Heebo;
+    font-size: 14px;
+    line-height: 21px;
+    color: #21243D;
+    margin-top: 26px;
+    padding-right: 36px;
+    margin-bottom: 46px;
+}
