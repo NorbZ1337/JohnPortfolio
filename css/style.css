@@ -376,6 +376,7 @@ table {
     }
     .posts .posts__box .posts__title {
         margin: 0 auto  ;
+        font-size: 18px;
     }
     .title-info .title-info__box {
         width: 100%;
@@ -390,9 +391,44 @@ table {
     .posts {
         padding-bottom: 21px;
     }
+    .works .works__box .works__card:nth-child(2),
+    .works .works__box .works__card:nth-child(3) {
+        display: none;
+    } 
+    .works .works__box .works__card {
+        display: block;
+        padding-top: 20px;
+
+    }
+    .works .works__box .works__card .works__img {
+        width: 100%;
+    }
+    .works .works__box .works__card .works__wrapper .works__title-two {
+        margin-top: 17px;
+        padding-left: 0px;
     
+    }
+    .works .works__box .works__card .works__wrapper .works__years-type .works__text {
+        margin: 24px 0px 0px 0px;
+    }
+    .footer {
+        margin-top: 150px;
+    }
+    .footer .footer__icons .footer__link:nth-child(4) {
+        margin-right: 0;
+    }
+    .footer .footer__copyright {
+        padding-right: 0px; 
+    }
+    .works .works__title {
+        font-size: 18px;
+        text-align: center;
+        padding-bottom: 0px;
+    }
+    .works .works__box .works__card .works__wrapper .works__years-type .works__years {
+        margin-left: 0px;
+    }
 }
- 
 
 
 
