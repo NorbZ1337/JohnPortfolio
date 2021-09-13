@@ -73,6 +73,22 @@ table {
     color: #FF6464;
 }
 
+.header .header__nav .header__burger .header__border {
+    border-bottom: 1px solid #000000;
+    width: 30px;
+    margin-top: 7px;
+    display: none;
+}
+
+.header .header__nav .header__burger {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin: 19px 18px 0px 0px;
+    cursor: pointer;
+}
+
+
 .detail .detail__h1 {
     font-family: Heebo;
     font-style: normal;
@@ -91,9 +107,8 @@ table {
     font-size: 17px;
     color: #FFFFFF;
     background: #FF7C7C;
-    padding: 0px 4px 0px 8px;
-    margin: 0px 17px 30px 4px
-
+    padding: 2px 10px 2px 10px;
+    margin: 4px 17px 29px 0px;
 }
 
 .detail .deatil__years-type .deatil__type {
@@ -159,4 +174,54 @@ table {
     margin-top: 26px;
     padding-right: 36px;
     margin-bottom: 46px;
+}
+
+.detail .deatil__years-type .detail_flex {
+    display: flex;
+}
+@media (max-width: 375px) {
+    .container {
+        width: 339px;
+        margin: 0 auto;
+    }
+
+    .header .header__nav .header__menu {
+        display: none;
+    }
+    .header .header__nav .header__burger .header__border {
+        display: block;    
+    }
+    .detail .detail__h1 {
+        font-size: 30px;
+        line-height: 40px;
+        padding-right: 0px;
+        margin-top: 44px;
+    }
+    .detail .deatil__years-type .deatil__years {
+        padding: 2px 10px 0px 10px;
+        margin: 2px 17px 29px 0px;
+        width: 43px;
+    }
+    .detail .deatil__years-type .deatil__type {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .detail .desigining, .redmuscle, .timer {
+        width: 100%;
+    }
+    .footer {
+        margin-top: 51px;
+    }
+    .footer .footer__icons .footer__link:nth-child(4) {
+        margin-right: 0;
+    }
+    .footer .footer__copyright {
+        padding-right: 0px; 
+    }
+    .detail .detail__h2 {
+        font-size: 26px;
+    }
+    .detail .detail__h3 {
+        font-size: 20px;
+    }
 }
