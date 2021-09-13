@@ -155,3 +155,75 @@ table {
 .footer {
 	margin-top: 104px;
 }
+
+.header .header__nav .header__burger .header__border {
+    border-bottom: 1px solid #000000;
+    width: 30px;
+    margin-top: 7px;
+    display: none;
+}
+
+.header .header__nav .header__burger {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin: 19px 18px 0px 0px;
+    cursor: pointer;
+}
+
+@media (max-width: 375px) {
+    .container{
+        width: 339px;
+
+    }
+    .header .header__nav .header__menu {
+        display: none;
+    
+    }
+    .header .header__nav .header__burger .header__border {
+        display: block;
+        
+    }
+    .Work .Work__title .Work__h1 {
+        margin: 36px 0px 0px 0px;
+        font-size: 30px;
+    }
+    .Work .Work__title .work__box .work__card {
+        display: block;
+        padding-bottom: 17px;
+    }
+    .Work .Work__title .work__box .work__card:nth-child(3),
+    .Work .Work__title .work__box .work__card:nth-child(4) {
+        display: none;
+    }
+    .Work .Work__title .work__box .work__card .work__img {
+        width: 100%;
+    }
+    .Work .Work__title .work__box .work__card .work__wrapper .work__title-two {
+        font-size: 24px;
+        padding-top: 17px;
+        padding-left: 0px;
+        margin-bottom: 16px;
+    }
+    .Work .Work__title .work__box .work__card .work__wrapper .work__years-type .work__years {
+        margin-left: 0px;
+        font-size: 16px;
+
+    }
+    .Work .Work__title .work__box .work__card .work__wrapper .work__years-type .work__type {
+        font-size: 16px;
+    }
+    .Work .Work__title .work__box .work__card .work__wrapper .work__years-type .work__text {
+        margin-top: 24px;
+        margin-left: 0px;
+    }
+    .footer {
+        margin-top: 51px;
+    }
+    .footer .footer__icons .footer__link:nth-child(4) {
+        margin-right: 0;
+    }
+    .footer .footer__copyright {
+        padding-right: 0px; 
+    }
+}   
