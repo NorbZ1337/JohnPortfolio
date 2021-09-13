@@ -94,9 +94,13 @@ table {
     font-weight: bold;
     font-size: 30px;
     color: #21243D;
-    padding-left: 18px;
+    margin-left: 18px;
     margin-bottom: 25px;
-    
+}
+
+.Work .Work__title .work__box .work__card .work__wrapper .work__title-two .work__link {
+    color: inherit;
+    text-decoration: none;
 }
 
 .Work .Work__title .work__box .work__card .work__wrapper .work__years-type .work__years {
@@ -171,6 +175,10 @@ table {
     cursor: pointer;
 }
 
+.Work .Work__title .work__box .work__card .work__wrapper .work__title-two:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 375px) {
     .container{
         width: 339px;
@@ -201,8 +209,8 @@ table {
     }
     .Work .Work__title .work__box .work__card .work__wrapper .work__title-two {
         font-size: 24px;
-        padding-top: 17px;
-        padding-left: 0px;
+        margin-top: 17px;
+        margin-left: 0px;
         margin-bottom: 16px;
     }
     .Work .Work__title .work__box .work__card .work__wrapper .work__years-type .work__years {
